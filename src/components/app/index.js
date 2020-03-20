@@ -3,9 +3,9 @@ import './App.scss';
 import Results from '../Results';
 import Header from '../Header'
 
-class App extends React.Component {  
+class App extends React.Component {
 
-  constructor () {
+  constructor() {
     super()
     this.state = {
       url: null,
@@ -28,19 +28,26 @@ class App extends React.Component {
     })
   }
 
-    render() {
-      return (
-        <div className='App'>
+  render() {
+    return (
+      <div className='App'>
 
-          <Header />
-          <form>
-            <input onChange={this.handleSubmit} value = {this.state.value} type="text" placeholder='Input API URL here'/>
-          </form>
+        <Header />
+        <form>
+          <input onChange={this.handleSubmit} value={this.state.value} type="text" placeholder='Input API URL here' />
+          <select>
+            <option value="get">GET</option>
+            <option value="put">PUT</option>
+            <option value="patch">PATCH</option>
+            <option value="post">POST</option>
+            <option value="delete">DELETE</option>
+          </select>
+        </form>
           <button onClick={this.getData}> Get Results</button>
-          <Results content={this.state.results} />
-        </div>
-      )
-    }
+        <Results content={this.state.results} />
+      </div>
+    )
+  }
 }
 
 
