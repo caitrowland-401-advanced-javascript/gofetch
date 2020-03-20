@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gofetch/static/css/main.819e4dd6.chunk.css",
+    "main.js": "/gofetch/static/js/main.800f6b1f.chunk.js",
+    "main.js.map": "/gofetch/static/js/main.800f6b1f.chunk.js.map",
+    "runtime-main.js": "/gofetch/static/js/runtime-main.a8c7aee3.js",
+    "runtime-main.js.map": "/gofetch/static/js/runtime-main.a8c7aee3.js.map",
+    "static/js/2.2519ff78.chunk.js": "/gofetch/static/js/2.2519ff78.chunk.js",
+    "static/js/2.2519ff78.chunk.js.map": "/gofetch/static/js/2.2519ff78.chunk.js.map",
+    "index.html": "/gofetch/index.html",
+    "precache-manifest.b9fdb945024b106f4d1e83d7cdff356a.js": "/gofetch/precache-manifest.b9fdb945024b106f4d1e83d7cdff356a.js",
+    "service-worker.js": "/gofetch/service-worker.js",
+    "static/css/main.819e4dd6.chunk.css.map": "/gofetch/static/css/main.819e4dd6.chunk.css.map",
+    "static/js/2.2519ff78.chunk.js.LICENSE.txt": "/gofetch/static/js/2.2519ff78.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8c7aee3.js",
+    "static/js/2.2519ff78.chunk.js",
+    "static/css/main.819e4dd6.chunk.css",
+    "static/js/main.800f6b1f.chunk.js"
+  ]
+}
