@@ -2,11 +2,13 @@
   "name": "gofetch",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://caitrowland-401-advanced-javascript.github.io/gofetch/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "fetch-mock-jest": "^1.2.4",
+    "gh-pages": "^2.2.0",
     "lodash": "^4.17.15",
     "node-fetch": "^2.6.0",
     "node-sass": "^4.13.1",
@@ -16,6 +18,8 @@
     "wait-for-expect": "^3.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
